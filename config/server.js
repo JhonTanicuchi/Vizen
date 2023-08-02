@@ -17,7 +17,7 @@ async function startServer() {
       console.log(
         `Servidor en ejecución en el puerto ${PORT}, en modo ${app.get(
           "env"
-        )}, puedes acceder a él en ${APP_URL}.`
+        )}, puedes acceder a él en ${APP_URL}:${PORT}.`
       );
       console.log("");
       resolve();
